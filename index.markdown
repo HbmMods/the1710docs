@@ -4,6 +4,56 @@
 
 ---
 
-# Time to break everything 
+# Everything I know about modding Minecraft 1.7.10
 
-ballsballsballsballsballsballsballsballsballsballsballsballs
+[Why does this exist](/about)
+
+[About the Author](/about-author)
+
+[Are you even sure you want to do this](/are-you-sure)
+
+## The Basics
+
+[Java knowledge](/java)
+
+How Minecraft runs
+
+Client/Server Concept
+
+What even is Forge
+
+Items and Item Stacks
+
+Blocks
+
+Tile Entities
+
+Entities
+
+Rendering
+
+## Intermediate
+
+Forge Events
+
+Mobs
+
+GUIs
+
+GUI Containers
+
+Packets
+
+Keybinds
+
+## Assets - The non-Java Things
+
+Textures
+
+Blender Models
+
+Sounds and Audacity
+
+## The Cookbook
+
+Setting up

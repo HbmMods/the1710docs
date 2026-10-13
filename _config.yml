@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shit yourself
+title: The 1.7.10 Docs
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jekyll crap site made because I don't want to use HTML
@@ -30,7 +30,7 @@ github_username:  HbmMods
 # Build settings
 # theme: minima - no theme at all fuck you
 plugins:
-  - jekyll-feed
+#  - jekyll-feed              (i don't think i need plugins, i want the most basic bitch markdown and that's it)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
