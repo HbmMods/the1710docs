@@ -23,8 +23,8 @@ title: The 1.7.10 Docs
 description: >- # this means to ignore newlines until "baseurl:"
   Jekyll crap site made because I don't want to use HTML
   for something that markdown does 10x better anyway.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/the1710docs" # the subpath of your site, e.g. /blog
+url: "https://hbmmods.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  HbmMods
 
 # Build settings

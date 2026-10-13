@@ -6,15 +6,15 @@
 
 # Everything I know about modding Minecraft 1.7.10
 
-[Why does this exist](/about)
+[Why does this exist](/the1710docs/about)
 
-[About the Author](/about-author)
+[About the Author](/the1710docs/about-author)
 
-[Are you even sure you want to do this](/are-you-sure)
+[Are you even sure you want to do this](/the1710docs/are-you-sure)
 
 ## The Basics
 
-[Java knowledge](/java)
+[Java knowledge](/the1710docs/java)
 
 How Minecraft runs
 
