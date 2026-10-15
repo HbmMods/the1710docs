@@ -16,7 +16,7 @@
 
 [Java knowledge](/the1710docs/java)
 
-How Minecraft runs
+[How Minecraft runs](/the1710docs/minecraft)
 
 Client/Server Concept
 
