@@ -20,7 +20,7 @@
 
 [Client/Server Concept](/the1710docs/clientserver)
 
-What even is Forge
+[What even is Forge](/the1710docs/forge)
 
 Items and Item Stacks
 
