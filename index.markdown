@@ -22,7 +22,7 @@
 
 [What even is Forge](/the1710docs/forge)
 
-Items and Item Stacks
+[Items and Item Stacks](/the1710docs/items)
 
 Blocks
 
