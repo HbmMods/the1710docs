@@ -26,7 +26,7 @@
 
 [Blocks](/the1710docs/blocks)
 
-Tile Entities
+[Tile Entities](/the1710docs/tileentities)
 
 Entities
 
@@ -56,4 +56,17 @@ Sounds and Audacity
 
 ## The Cookbook
 
+(Everything linked on this page was just a setup for you to understand these examples)
+
 Setting up
+
+Things you might want to do with blocks
+
+Things you might want to do with items
+
+Things you might want to do with tile entities
+
+Things you might want to do with entities
+
+Things you might want to do with events
+
