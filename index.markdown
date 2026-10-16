@@ -18,7 +18,7 @@
 
 [How Minecraft runs](/the1710docs/minecraft)
 
-Client/Server Concept
+[Client/Server Concept](/the1710docs/clientserver)
 
 What even is Forge
 
