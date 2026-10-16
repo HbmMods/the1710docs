@@ -24,7 +24,7 @@
 
 [Items and Item Stacks](/the1710docs/items)
 
-Blocks
+[Blocks](/the1710docs/blocks)
 
 Tile Entities
 
