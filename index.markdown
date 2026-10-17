@@ -22,13 +22,15 @@
 
 [What even is Forge](/the1710docs/forge)
 
+[Named Binary Tags (NBT)](/the1710docs/nbt)
+
 [Items and Item Stacks](/the1710docs/items)
 
 [Blocks](/the1710docs/blocks)
 
 [Tile Entities](/the1710docs/tileentities)
 
-Entities
+[Entities](/the1710docs/entities)
 
 Rendering
 

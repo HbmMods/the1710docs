@@ -9,6 +9,7 @@ permalink: /tileentities/
 Requires:
 * [Client/Server Concept](/the1710docs/clientserver)
 * [Blocks](/the1710docs/blocks)
+* [Named Binary Tags (NBT)](/the1710docs/nbt)
 
 Tile entities are objects that accompany certain blocks within the block grid. Tile entities allow blocks to store way more data than what would be possible with just their metadata ranging from 0-15. Containers such as chests and machines such as furnaces and beacons all use tile entities for holding items and receiving update ticks.
 
