@@ -36,7 +36,7 @@ Rendering
 
 ## Intermediate
 
-Forge Events
+[Forge Events](/the1710docs/events)
 
 Mobs
 
@@ -71,4 +71,6 @@ Things you might want to do with tile entities
 Things you might want to do with entities
 
 Things you might want to do with events
+
+Things you might want to do with rendering
 

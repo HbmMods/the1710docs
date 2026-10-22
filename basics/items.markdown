@@ -6,6 +6,10 @@ permalink: /items/
 
 # /Items and Item Stacks
 
+Requires:
+
+* [Named Binary Tags (NBT)](/the1710docs/nbt)
+
 We are now finally talking about actual in-game content. Hooray!
 
 First we have to ask, what is an item, what is an item stack?
@@ -43,3 +47,9 @@ By default, items are rendered as 2D sprites from a texture. Using the `setTextu
 Icons are just instances that hold coordinates on the texture atlas. When textures are loaded, all textures registered to the icon register are stitched together into a big sheet (the item texture atlas), and the icon instance held by the item is told the coordinates of where the texture is on that sheet.
 
 For most purposes, it's sufficient to make a field (or an array, but do sanitize the indices!) for every texture of an item variant, then instantiate them by using the item registry provided by `registerIcons(IIconRegister)` (simply call `registerIcon(String)` with the texture name and it'll spit out the icon instance), and then return the correct icon instance based on the stack's metadata in `getIconFromDamage(int)`. There's a few additional variants of this method with varying parameters including the entire item stack instance (allowing you to make NBT-aware textures) and the render pass (for multi-layer textures, for example in vanilla the leather armor which is dyeable).
+
+## Item Stacks
+Previously, we established that stacks can hold NBT data. NBT is important for storing any additional data that cannot be expressed via metadata. NBT is contained in a stack in the form of an `NBTTagCompound` in the `stackTagCompound` field. The NBT compound means that we can attach any NBT compatible data type with a named key through which we can get/set that value. Do note that `stackTagCompound` by default is null, so any modifications to the stack's NBT needs to check if the compound is null and create a new instance if necessary.
+
+When removing NBT values from the compound, do note that a compound with no tags is *not* equal to a compound that is null. An stack with an empty compound cannot be combined with a stack with no compound, even though both of them express the same lack of extra data, so when removing tags, make sure to delete the compound if it is empty.
+
