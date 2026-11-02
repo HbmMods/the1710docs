@@ -32,7 +32,7 @@
 
 [Entities](/the1710docs/entities)
 
-Rendering
+[Rendering](/the1710docs/rendering)
 
 ## Intermediate
 
